@@ -111,10 +111,8 @@ class ViewController: UIViewController {
             self.txtFechaNacimiento.text = user.FechaNacimiento
             self.txtUserName.text = user.UserName
             self.txtPassword.text = user.Password
-            user.Rol = Rol()
-            //user.Rol?.IdRol = self.IdRol
-            
-            
+            //user.Rol = Rol()
+            self.ddlRol.text = user.Rol?.Nombre
             
             btnAction.backgroundColor = .orange
             btnAction.setTitle("Actualizar", for: .normal)
