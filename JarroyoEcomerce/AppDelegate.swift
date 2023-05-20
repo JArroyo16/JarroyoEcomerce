@@ -4,14 +4,11 @@
 //
 //  Created by MacBookMBP1 on 28/04/23.
 //
-
+import FirebaseCore
 import UIKit
 import IQKeyboardManagerSwift
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         IQKeyboardManager.shared.enable = true
@@ -19,6 +16,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         return true
     }
+    
+    class AppDelegate: NSObject, UIApplicationDelegate {
+      func application(_ application: UIApplication,
+                       didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        FirebaseApp.configure()
+    //content_copy
+
+        return true
+      }
+    }
+
 
     // MARK: UISceneSession Lifecycle
 

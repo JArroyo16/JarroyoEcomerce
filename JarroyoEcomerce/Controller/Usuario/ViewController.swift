@@ -79,7 +79,6 @@ class ViewController: UIViewController {
                 
             ddlRol.optionArray.append(rol.Nombre!)
             ddlRol.optionIds?.append(rol.IdRol!)
-
             }
         }
         
@@ -93,6 +92,7 @@ class ViewController: UIViewController {
             self.txtFechaNacimiento.text = ""
             self.txtUserName.text = ""
             self.txtPassword.text = ""
+            self.ddlRol.text = ""
             
             
             btnAction.backgroundColor = .green
@@ -179,19 +179,28 @@ class ViewController: UIViewController {
                    usuario.Rol = Rol()
                    usuario.Rol?.IdRol = self.IdRol
                    
-                
                    Validacion()
                    let result = UsuarioViewModel.Add(usuario: usuario)
                    if result.Correct! {
                        let alert = UIAlertController(title: "Mensaje", message: "Usuario Agregado correctamente", preferredStyle: .alert)
                        let action = UIAlertAction(title: "Aceptar", style: .default)
                        alert.addAction(action)
-                       //alert.showDetailViewController(alert, sender: self)
+                       //limpiar campos
+                       self.txtActualizarEliminar.text = ""
+                       self.txtNombre.text = ""
+                       self.txtApellidoPaterno.text = ""
+                       self.txtApellidoMaterno.text = ""
+                       self.txtFechaNacimiento.text = ""
+                       self.txtUserName.text = ""
+                       self.txtPassword.text = ""
+                       self.ddlRol.text = ""
+                       
                        present(alert, animated: true)
                    }else{
                        let alert = UIAlertController(title: "Mensaje", message: "Por favor llena todos los campos solicitados", preferredStyle: .alert)
                        let action = UIAlertAction(title: "Aceptar", style: .default)
                        alert.addAction(action)
+                       
                        //alert.showDetailViewController(alert, sender: self)
                        present(alert, animated: true)
                    }
@@ -215,8 +224,17 @@ class ViewController: UIViewController {
                        let alert = UIAlertController(title: "Mensaje", message: "Usuario actualizado correctamente", preferredStyle: .alert)
                        let action = UIAlertAction(title: "Aceptar", style: .default)
                        alert.addAction(action)
-                       present(alert, animated: true)
                        
+                       //limpiar campos
+                       self.txtActualizarEliminar.text = ""
+                       self.txtNombre.text = ""
+                       self.txtApellidoPaterno.text = ""
+                       self.txtApellidoMaterno.text = ""
+                       self.txtFechaNacimiento.text = ""
+                       self.txtUserName.text = ""
+                       self.txtPassword.text = ""
+                       self.ddlRol.text = ""
+                       present(alert, animated: true)
                    }
                    else{
                        let alert = UIAlertController(title: "Mensaje", message: "Por favor llena todos los campos solicitados", preferredStyle: .alert)
