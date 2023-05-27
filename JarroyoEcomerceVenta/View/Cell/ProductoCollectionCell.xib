@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" reuseIdentifier="ProductoCollectionCell" id="hGo-Zd-CaR" customClass="ProductoCollectionCell" customModule="JarroyoEcomerceVenta" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="234" height="246"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="234" height="246"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c9T-7O-uUf">
+                        <rect key="frame" x="0.0" y="0.0" width="234" height="246"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="uMh-9k-hap">
+                                <rect key="frame" x="0.0" y="0.0" width="234" height="246"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YSw-o1-hKi">
+                                        <rect key="frame" x="0.0" y="0.0" width="224" height="120.66666666666667"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nQh-ji-inr">
+                                        <rect key="frame" x="0.0" y="125.66666666666667" width="61.333333333333336" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripcion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dj9-td-mMG">
+                                        <rect key="frame" x="0.0" y="151" width="90.666666666666671" height="20.333333333333343"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Precio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dS9-kS-PHg">
+                                        <rect key="frame" x="0.0" y="176.33333333333334" width="48" height="20.333333333333343"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jmN-5x-O9W">
+                                        <rect key="frame" x="0.0" y="201.66666666666666" width="54" height="44.333333333333343"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="cart.fill.badge.plus" catalog="system"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="uMh-9k-hap" secondAttribute="trailing" id="O9S-9F-YF5"/>
+                            <constraint firstAttribute="bottom" secondItem="uMh-9k-hap" secondAttribute="bottom" id="TTl-ru-eDk"/>
+                            <constraint firstItem="uMh-9k-hap" firstAttribute="top" secondItem="c9T-7O-uUf" secondAttribute="top" id="ene-bc-m9x"/>
+                            <constraint firstItem="uMh-9k-hap" firstAttribute="leading" secondItem="c9T-7O-uUf" secondAttribute="leading" id="uts-rw-eEj"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ct9-bh-rG7"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="c9T-7O-uUf" secondAttribute="bottom" id="EIY-uG-q4d"/>
+                <constraint firstItem="c9T-7O-uUf" firstAttribute="top" secondItem="hGo-Zd-CaR" secondAttribute="top" id="drY-ns-dJW"/>
+                <constraint firstItem="c9T-7O-uUf" firstAttribute="leading" secondItem="hGo-Zd-CaR" secondAttribute="leading" id="mwy-nq-0Sf"/>
+                <constraint firstAttribute="trailing" secondItem="c9T-7O-uUf" secondAttribute="trailing" id="w93-a4-SGX"/>
+            </constraints>
+            <size key="customSize" width="234" height="246"/>
+            <connections>
+                <outlet property="Imagen" destination="YSw-o1-hKi" id="0Hc-RW-BQn"/>
+                <outlet property="btnCarrito" destination="jmN-5x-O9W" id="E7Y-q3-4l7"/>
+                <outlet property="lblDescripcion" destination="dj9-td-mMG" id="UOI-g0-342"/>
+                <outlet property="lblNombre" destination="nQh-ji-inr" id="Wwb-dH-OJH"/>
+                <outlet property="lblPrecio" destination="dS9-kS-PHg" id="9BS-iu-ht5"/>
+            </connections>
+            <point key="canvasLocation" x="277.86259541984731" y="88.732394366197184"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="cart.fill.badge.plus" catalog="system" width="128" height="105"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleAspectFit" semanticContentAttribute="spatial" selectionStyle="default" indentationWidth="10" rowHeight="138" id="36k-tn-myx" customClass="ProductoCell" customModule="JarroyoEcomerce" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="324" height="110"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="36k-tn-myx" id="lwG-Su-oxx">
+                <rect key="frame" x="0.0" y="0.0" width="324" height="110"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lVb-WS-UB6">
+                        <rect key="frame" x="5" y="5" width="121" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="121" id="hnI-tQ-S6a"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="EJy-Aa-8kr">
+                        <rect key="frame" x="131" y="5" width="109.66666666666669" height="100"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Nombre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAK-e5-DpI">
+                                <rect key="frame" x="0.0" y="0.0" width="61.333333333333336" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Departamento" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLt-t6-q7X">
+                                <rect key="frame" x="0.0" y="33" width="109.66666666666667" height="20.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Precio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yNe-6P-ufN">
+                                <rect key="frame" x="0.0" y="56.333333333333336" width="48" height="20.333333333333336"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Descripcion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="43n-t4-SMM">
+                                <rect key="frame" x="0.0" y="79.666666666666671" width="90.666666666666671" height="20.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="EJy-Aa-8kr" secondAttribute="bottom" constant="5" id="Jar-no-uia"/>
+                    <constraint firstItem="EJy-Aa-8kr" firstAttribute="leading" secondItem="lVb-WS-UB6" secondAttribute="trailing" constant="5" id="Nao-Iy-Lyn"/>
+                    <constraint firstItem="lVb-WS-UB6" firstAttribute="top" secondItem="lwG-Su-oxx" secondAttribute="top" constant="5" id="huc-7N-hMs"/>
+                    <constraint firstItem="EJy-Aa-8kr" firstAttribute="top" secondItem="lwG-Su-oxx" secondAttribute="top" constant="5" id="paR-Hn-tGH"/>
+                    <constraint firstAttribute="bottom" secondItem="lVb-WS-UB6" secondAttribute="bottom" constant="5" id="wRn-b4-vDx"/>
+                    <constraint firstItem="lVb-WS-UB6" firstAttribute="leading" secondItem="lwG-Su-oxx" secondAttribute="leading" constant="5" id="xru-Pz-Dzx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="Bi5-Sc-PrO"/>
+            <connections>
+                <outlet property="ImageView" destination="lVb-WS-UB6" id="0Vh-ig-Mfr"/>
+                <outlet property="lblDepartamento" destination="fLt-t6-q7X" id="oCR-Dr-C8E"/>
+                <outlet property="lblDescrpcion" destination="43n-t4-SMM" id="cGl-Ky-JOA"/>
+                <outlet property="lblNombre" destination="TAK-e5-DpI" id="gaz-UF-m2r"/>
+                <outlet property="lblPrecio" destination="yNe-6P-ufN" id="t2G-Fw-TAb"/>
+            </connections>
+            <point key="canvasLocation" x="170.99236641221373" y="30.281690140845072"/>
+        </tableViewCell>
+    </objects>
+</document>

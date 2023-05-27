@@ -40,56 +40,45 @@ class FormProductoController: UIViewController {
     var IdProveedor : Int = 0
     var IdArea : Int = 0
     //var producto = Producto()
+    let imagePickerController = UIImagePickerController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         //ddl de departamento
         txtId.isEnabled = false
         
-//        imagePickerController.delegate = self
-//        imagePickerController.sourceType = .photoLibrary
-//        imagePickerController.isEditing = false
+        imagePickerController.delegate = self
+        imagePickerController.sourceType = .photoLibrary
+        imagePickerController.isEditing = false
         
         ddlArea.didSelect{selectedText , index,id in
             self.IdArea = id
+            
+            let result = DepartamentoViewModel.GetById(IdArea: id)
+            if result.Correct! {
+                self.departamentoL()
+            }
+            
         }
+        
         ddlArea.optionArray = []
         ddlArea.optionIds = []
-        let resultarea = ProductoViewModel.GetAllArea()
+        let resultarea = AreaViewModel.GetAll()
         if resultarea.Correct!{
             for objarea in resultarea.Objects!{
                 let area = objarea as! Area
-                
                 ddlArea.optionArray.append(area.Nombre!)
                 ddlArea.optionIds?.append(area.IdArea!)
+                
             }
         }
         
-        ddlDepartamento.didSelect{selectedText , index ,id in
-        self.IdDepartamento = id
-          }
-        
-        ddlDepartamento.optionArray = []
-        ddlDepartamento.optionIds = []
-        let resultDepartamento = ProductoViewModel.GetAllDepartamento()
-        if resultDepartamento.Correct!{
-            for objdepartamento in resultDepartamento.Objects!{
-                let departamento = objdepartamento as! Departamento
-
-            ddlDepartamento.optionArray.append(departamento.Nombre!)
-            ddlDepartamento.optionIds?.append(departamento.IdDepartamento!)
-            }
-        }
-
-
-        //ddl proveedor
-        ddlProveedor.didSelect{selectText , index , id in
+        ddlProveedor.didSelect{selectedText , index,id in
             self.IdProveedor = id
-
-        }
+            }
         ddlProveedor.optionArray = []
         ddlProveedor.optionIds = []
-        let resultProveedor = ProductoViewModel.GetAllProveedor()
+        let resultProveedor = ProveedorViewModel.GetAll()
         if resultProveedor.Correct!{
             for objProveedor in resultProveedor.Objects!{
                 let proveedor = objProveedor as! Proveedor
@@ -97,6 +86,7 @@ class FormProductoController: UIViewController {
                 ddlProveedor.optionArray.append(proveedor.Nombre!)
             }
         }
+        
         if IdProducto == 0{
             var product = Producto()
             self.txtNombre.text = ""
@@ -112,7 +102,6 @@ class FormProductoController: UIViewController {
             let datos = ProductoViewModel.GetById(IdProducto: IdProducto)
             let product = datos.Object as! Producto
             
-            //img
             self.txtId.text = product.IdProducto?.description
             self.txtNombre.text = product.Nombre
             self.txtStock.text = product.Stock?.description
@@ -126,8 +115,24 @@ class FormProductoController: UIViewController {
         }
     }
     
+    func departamentoL(){
+        ddlDepartamento.didSelect{selectedText , index ,id in
+            self.IdDepartamento = id
+        }
+        ddlDepartamento.optionArray = []
+        ddlDepartamento.optionIds = []
+        let resultDepartamento = DepartamentoViewModel.GetById(IdArea: IdArea)
+            if resultDepartamento.Correct!{
+                for objdepartamento in resultDepartamento.Objects!{
+                let departamento = objdepartamento as! Departamento
+                    ddlDepartamento.optionArray.append(departamento.Nombre!)
+                    ddlDepartamento.optionIds?.append(departamento.IdDepartamento!)
+                }
+            }
+    }
+    
     @IBAction func openPickerImage() {
-            //self.present(imagePickerController, animated: true)
+            self.present(imagePickerController, animated: true)
         }
     
     
@@ -142,8 +147,10 @@ class FormProductoController: UIViewController {
             producto.Stock = Int(txtStock.text!)
             producto.Descripcion = txtDescripcion.text!
             
-            let img = ImageView.image
             producto.Imagen = convertToBase64()
+            
+            producto.Area = Area()
+            producto.Area?.IdArea = self.IdArea
 
             producto.Departamento = Departamento()
             producto.Departamento?.IdDepartamento = self.IdDepartamento
@@ -161,6 +168,7 @@ class FormProductoController: UIViewController {
                 self.txtStock.text = ""
                 self.txtPrecio.text = ""
                 self.txtDescripcion.text = ""
+                self.ddlArea.text = ""
                 self.ddlProveedor.text = ""
                 self.ddlDepartamento.text = ""
 
@@ -180,8 +188,10 @@ class FormProductoController: UIViewController {
             producto.Stock = Int(txtStock.text!)
             producto.Descripcion = txtDescripcion.text!
             
-            let img = ImageView.image
             producto.Imagen = convertToBase64()
+            
+            producto.Area = Area()
+            producto.Area?.IdArea = self.IdArea
             
             producto.Departamento = Departamento()
             producto.Departamento?.IdDepartamento = self.IdDepartamento
@@ -199,6 +209,7 @@ class FormProductoController: UIViewController {
                 self.txtStock.text = ""
                 self.txtPrecio.text = ""
                 self.txtDescripcion.text = ""
+                self.ddlArea.text = ""
                 self.ddlProveedor.text = ""
                 self.ddlDepartamento.text = ""
                 present(alert, animated: true)

@@ -13,19 +13,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         IQKeyboardManager.shared.enable = true
         IQKeyboardManager.shared.shouldResignOnTouchOutside = true
-        
+        FirebaseApp.configure()
         return true
     }
     
-    class AppDelegate: NSObject, UIApplicationDelegate {
-      func application(_ application: UIApplication,
-                       didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-        FirebaseApp.configure()
-    //content_copy
-
-        return true
-      }
-    }
+//    class AppDelegate: NSObject, UIApplicationDelegate {
+//      func application(_ application: UIApplication,
+//                       didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+//        FirebaseApp.configure()
+//    //content_copy
+//
+//        return true
+//      }
+//    }
 
 
     // MARK: UISceneSession Lifecycle

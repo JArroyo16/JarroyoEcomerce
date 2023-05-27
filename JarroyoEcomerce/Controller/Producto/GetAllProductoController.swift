@@ -49,8 +49,11 @@ class GetAllProductoController: UITableViewController {
         if productos[indexPath.row].Imagen == "img" || productos[indexPath.row].Imagen == nil || productos[indexPath.row].Imagen == ""  {
                     cell.ImageView.image = UIImage(named: "AppIcon")
                 }else{
-                    //let imagenData : Data = //Proceso inverso de base64 a Data
-                    //cell.imageView.image = UIImage(data: imagenData)
+                    let string =  productos[indexPath.row].Imagen
+                        let newImageData = Data(base64Encoded: string!)
+                        if let newImageData = newImageData {
+                        cell.ImageView.image = UIImage(data: newImageData)
+                        }
                 }
         
         return cell
