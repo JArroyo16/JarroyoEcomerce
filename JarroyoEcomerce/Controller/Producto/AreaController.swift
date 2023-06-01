@@ -74,8 +74,8 @@ extension AreaController :  UICollectionViewDelegate, UICollectionViewDataSource
             print(IdArea)
         }
         if segue.identifier == "Busqueda"{
-            var formControl = segue.destination as! ProductoController
-            formControl.nombreProducto = self.nombreProducto
+//            var formControl = segue.destination as! ProductoController
+//            formControl.nombreProducto = self.nombreProducto
         }
     }
     

@@ -56,8 +56,8 @@ class DepartamentoController: UICollectionViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == "Productos"{
-            var formControl = segue.destination as! ProductoController
-            formControl.IdDepartamento = self.IdDepartamento
+            //var formControl = segue.destination as! ProductoController
+            //formControl.IdDepartamento = self.IdDepartamento
             print(IdDepartamento)
         }
     }

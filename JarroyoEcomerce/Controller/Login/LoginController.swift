@@ -13,8 +13,7 @@ class LoginController: UIViewController {
     @IBOutlet weak var txtCorreo: UITextField!
     
     @IBOutlet weak var txtPassword: UITextField!
-    
-    @IBOutlet weak var btnIng: UIButton!
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         

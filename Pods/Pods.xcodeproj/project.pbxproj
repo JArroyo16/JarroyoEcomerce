@@ -12,6 +12,7 @@
 		04B0884964D9592302CA654E0B67E80E /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA3C4D46FABBE1F8765E0016B4842F5 /* IQUIView+Hierarchy.swift */; };
 		0548AE65FBFD564D54884DD843733295 /* SwipeTransitionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F17411940262D9C7EABDBDA72032079 /* SwipeTransitionLayout.swift */; };
 		08B185E08278AE7EC55F8BBB19693AC5 /* IQKeyboardManager+OrientationNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E7625EECDC049D9AED3F43D4F6185B /* IQKeyboardManager+OrientationNotification.swift */; };
+		0C8879595E9EAA55C160884BE65D1134 /* Pods-JarroyoEcomerceVenta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DE1E73CF8A0EF84296A8295BAC24A5D /* Pods-JarroyoEcomerceVenta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F94B2449CA1ADA76AE79C0BF6A08549 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8EF268BB3C4AD841B32A64369B10B8 /* IQKeyboardManagerConstantsInternal.swift */; };
 		1740CBB33D469AEDD5D7291A9268FA97 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42FEFDED87FDED6A56EF12D34B6D2DF /* IQToolbar.swift */; };
 		179DA004EB2727CC8E47A857B9A7C8BE /* SwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3B61F68444504970D6CDFD96770BE0 /* SwipeController.swift */; };
@@ -31,7 +32,7 @@
 		302D218976A9A55C13B861E9FF4090BB /* SwipeCellKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5E4590635B62B257A3FE5480F721E61 /* SwipeCellKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30CC79215F75F7BD8660EAF3E20F8793 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
 		311EFC1239B0C7C5480C02B4B85413B0 /* SwipeExpansionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C84A0EEB9FCAFA59FE2DF2D52421BE9 /* SwipeExpansionStyle.swift */; };
-		3133AD75E4840EBB162F84B7A46C32CB /* Pods-JarroyoEcomerce-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 845D826038A4196FC6970E13C21707E9 /* Pods-JarroyoEcomerce-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3133AD75E4840EBB162F84B7A46C32CB /* Pods-JarroyoEcomerce-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A1435BCE85ADD147CF61730987C6910 /* Pods-JarroyoEcomerce-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34C39BDBFE7A2CC585787F5AFCA39FDE /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100D3116559492BC38F587CA8517C4FD /* IQUIView+IQKeyboardToolbar.swift */; };
 		3A0EFA6C47553E56008B8CE22EC206B6 /* SwipeCollectionViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B31AC9CD1977E47BB0E0564CA8A66C /* SwipeCollectionViewCellDelegate.swift */; };
 		3F01EED6380B596E1D0C1497CBCF9B95 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43B5199CC9D53B2131923AD552369DB /* IQUITextFieldView+Additions.swift */; };
@@ -47,7 +48,7 @@
 		85F13B069B06ADF2B6DCA622E4645110 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579ED7AD60C506CCCA2744F2785FA250 /* IQKeyboardManagerConstants.swift */; };
 		86A03DE9366D1BE94EB99AA387EACD1F /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0469E68D896E3E09BACC18C9AE8E76 /* IQKeyboardManager.swift */; };
 		90A282D559F6B602CC819EA557F422DF /* SwipeTableViewCell+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB253E479AF8D82CAA35E59AAC3BC1F /* SwipeTableViewCell+Display.swift */; };
-		91A297BD458AE07AF65DEC67CD80676F /* Pods-JarroyoEcomerce-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCBD89FF592EE5B248D74A544FFADEF /* Pods-JarroyoEcomerce-dummy.m */; };
+		91A297BD458AE07AF65DEC67CD80676F /* Pods-JarroyoEcomerce-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 798A3EE7C3F7CEB0C1341465829A82ED /* Pods-JarroyoEcomerce-dummy.m */; };
 		9D1432BACBF3349C6B4BACE3EEDB1391 /* SwipeActionTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DAB7B74DA7D754655040C8AB7C3C46 /* SwipeActionTransitioning.swift */; };
 		9EFB9CE930EFCFF821A56868C99C8966 /* SwipeExpanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134A54009028F13DED58CAD7E59E583A /* SwipeExpanding.swift */; };
 		9F079A2701FEA0F33062E44BE2ECCBC0 /* iOSDropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C34088823802DAD6080F97073073549 /* iOSDropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -65,6 +66,8 @@
 		D2403C1CF223D9C5D7AB1E1B3CF3E66A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
 		D31356D54A39420DB91C892502CFFD57 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99C5C1109A6327D4D7016C58A3E1216 /* IQUIViewController+Additions.swift */; };
 		D6516B5451008BF1ABA150E6482F6325 /* IQKeyboardManager+UITextFieldViewNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71FD23E0F7DC79D39C7798309286CD4 /* IQKeyboardManager+UITextFieldViewNotification.swift */; };
+		D6539FA454F985471F37E771D760570B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
+		DA05D85F64196EF580B8799684B729B9 /* Pods-JarroyoEcomerceVenta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B28A5D3B704695549FE1CC9729581C /* Pods-JarroyoEcomerceVenta-dummy.m */; };
 		DF33C3DE068D6116B3F551B0453ACD23 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F46675C9202967C884982C75E6E9E13 /* IQUIScrollView+Additions.swift */; };
 		E72E1BDDFF31003BD089544FC112FAAC /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F80D3F8AF6715A148FCCD0CD04A3298 /* IQTextView.swift */; };
 		F254264789A1EC31F8B4D1D31277A3A7 /* SwipeCellKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3433E7BABE5F605AEB8DDEBA21304813 /* SwipeCellKit-dummy.m */; };
@@ -79,12 +82,26 @@
 			remoteGlobalIDString = 1DE44C23B82E6671E9E1541D06DE0E87;
 			remoteInfo = SwipeCellKit;
 		};
+		2FBC695F527C3E0C1B3F3D3E0392A93F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
 		6977F93388C36AF0A4012B11AE67FEED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
 			remoteInfo = IQKeyboardManagerSwift;
+		};
+		B44ECB58C7BBFE5F7B36F16E19171F9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DE44C23B82E6671E9E1541D06DE0E87;
+			remoteInfo = SwipeCellKit;
 		};
 		EF7F130FDFE53FD25F0B7B943D1D1423 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -97,7 +114,6 @@
 
 /* Begin PBXFileReference section */
 		00B2008E5071259AD08B68D19BDF2CCC /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
-		00D7EBED0B2BB54CE584DF4D01D10C0C /* Pods-JarroyoEcomerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JarroyoEcomerce.debug.xcconfig"; sourceTree = "<group>"; };
 		04D60AC13D33197690A05C641925DDDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		05E8C1DF890FDD1647506289D4653E53 /* SwipeCellKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeCellKit.debug.xcconfig; sourceTree = "<group>"; };
 		096277F557F6CD670C76E12D8FC0E686 /* SwipeAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAction.swift; path = Source/SwipeAction.swift; sourceTree = "<group>"; };
@@ -105,51 +121,57 @@
 		0A8EF268BB3C4AD841B32A64369B10B8 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
 		0F17411940262D9C7EABDBDA72032079 /* SwipeTransitionLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitionLayout.swift; path = Source/SwipeTransitionLayout.swift; sourceTree = "<group>"; };
 		100D3116559492BC38F587CA8517C4FD /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
-		10953E5C7478154045AC89ED4A4A42E5 /* Pods-JarroyoEcomerce-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JarroyoEcomerce-acknowledgements.markdown"; sourceTree = "<group>"; };
-		11D99276931C2CCE6048D438BAB8B8E1 /* Pods-JarroyoEcomerce-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JarroyoEcomerce-Info.plist"; sourceTree = "<group>"; };
+		12192068B7E548759DFCEF3A401BBF10 /* Pods-JarroyoEcomerce-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JarroyoEcomerce-Info.plist"; sourceTree = "<group>"; };
 		134A54009028F13DED58CAD7E59E583A /* SwipeExpanding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeExpanding.swift; path = Source/SwipeExpanding.swift; sourceTree = "<group>"; };
 		14DAB7B74DA7D754655040C8AB7C3C46 /* SwipeActionTransitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionTransitioning.swift; path = Source/SwipeActionTransitioning.swift; sourceTree = "<group>"; };
 		1A886F9FA08AA7C550B8540003B90C94 /* iOSDropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-prefix.pch"; sourceTree = "<group>"; };
 		213020C2ABE1050A6899B02F452FB973 /* IQKeyboardManager+Position.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQKeyboardManager+Position.swift"; path = "IQKeyboardManagerSwift/IQKeyboardManager+Position.swift"; sourceTree = "<group>"; };
 		25B31AC9CD1977E47BB0E0564CA8A66C /* SwipeCollectionViewCellDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeCollectionViewCellDelegate.swift; path = Source/SwipeCollectionViewCellDelegate.swift; sourceTree = "<group>"; };
+		263923427AB9CC11FA184AA17653C65E /* Pods-JarroyoEcomerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JarroyoEcomerce.release.xcconfig"; sourceTree = "<group>"; };
 		26D1748119E6369DF2A7B82FFFE74662 /* SwipeTableViewCell+Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeTableViewCell+Accessibility.swift"; path = "Source/SwipeTableViewCell+Accessibility.swift"; sourceTree = "<group>"; };
 		276C0A8A53C6E495232E981B4DC2B366 /* SwipeActionsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionsView.swift; path = Source/SwipeActionsView.swift; sourceTree = "<group>"; };
 		2C34088823802DAD6080F97073073549 /* iOSDropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-umbrella.h"; sourceTree = "<group>"; };
-		2EF335C7475CBBFC3DE3CC37A59AAC46 /* Pods-JarroyoEcomerce.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JarroyoEcomerce.modulemap"; sourceTree = "<group>"; };
 		3433E7BABE5F605AEB8DDEBA21304813 /* SwipeCellKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeCellKit-dummy.m"; sourceTree = "<group>"; };
 		346B70DBD8F720FE689A8D771FABB4CD /* IQKeyboardManager+Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQKeyboardManager+Internal.swift"; path = "IQKeyboardManagerSwift/IQKeyboardManager+Internal.swift"; sourceTree = "<group>"; };
 		350D0E25B190B33FCCBD886C2D023560 /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
+		366C685B5E6B27ED3B945DAD35A04507 /* Pods-JarroyoEcomerce-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JarroyoEcomerce-acknowledgements.markdown"; sourceTree = "<group>"; };
 		378CFA87F94900374E5FB25E659A3BD7 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
 		3F80D3F8AF6715A148FCCD0CD04A3298 /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
-		43F30646CB4D060801E2296D01A4B032 /* Pods-JarroyoEcomerce-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JarroyoEcomerce-frameworks.sh"; sourceTree = "<group>"; };
 		4DA3C4D46FABBE1F8765E0016B4842F5 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		4FFC4D24A2CA695892DA4C616E56F8B6 /* Pods-JarroyoEcomerceVenta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JarroyoEcomerceVenta.release.xcconfig"; sourceTree = "<group>"; };
 		52813DB7B2B56DD5D6B813CBD6B07622 /* IQKeyboardManagerSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.release.xcconfig; sourceTree = "<group>"; };
 		5375DE5AF84370DEE0C32846F665B5E5 /* iOSDropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDropDown.release.xcconfig; sourceTree = "<group>"; };
+		54D33402EEB94BCB233582E48FB289DA /* Pods-JarroyoEcomerceVenta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JarroyoEcomerceVenta.debug.xcconfig"; sourceTree = "<group>"; };
 		55524D6C935CA81C3EF87C832918C9BF /* SwipeCellKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeCellKit-prefix.pch"; sourceTree = "<group>"; };
 		579ED7AD60C506CCCA2744F2785FA250 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
 		5CEA1493E570492007D665EA458DBB02 /* Swipeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Swipeable.swift; path = Source/Swipeable.swift; sourceTree = "<group>"; };
 		5DB253E479AF8D82CAA35E59AAC3BC1F /* SwipeTableViewCell+Display.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeTableViewCell+Display.swift"; path = "Source/SwipeTableViewCell+Display.swift"; sourceTree = "<group>"; };
 		600FBA0E69F168D54D851A0785A2B952 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift; sourceTree = "<group>"; };
+		6A1435BCE85ADD147CF61730987C6910 /* Pods-JarroyoEcomerce-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JarroyoEcomerce-umbrella.h"; sourceTree = "<group>"; };
 		6A3C8BE00D2FF7118CBA92CC91863229 /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
 		6C84A0EEB9FCAFA59FE2DF2D52421BE9 /* SwipeExpansionStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeExpansionStyle.swift; path = Source/SwipeExpansionStyle.swift; sourceTree = "<group>"; };
+		6DD256678F069BADFEA06359D6E753D0 /* Pods-JarroyoEcomerceVenta-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JarroyoEcomerceVenta-frameworks.sh"; sourceTree = "<group>"; };
 		6ED28C0CC47A21E70A54F01FADF8AD73 /* SwipeCollectionViewCell+Display.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeCollectionViewCell+Display.swift"; path = "Source/SwipeCollectionViewCell+Display.swift"; sourceTree = "<group>"; };
 		701A5625298ED1C1771AFDFF7B3D992D /* SwipeCollectionViewCell+Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeCollectionViewCell+Accessibility.swift"; path = "Source/SwipeCollectionViewCell+Accessibility.swift"; sourceTree = "<group>"; };
 		7544EA28BC05AB4DA9C58150A6CD09A5 /* iOSDropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSDropDown-dummy.m"; sourceTree = "<group>"; };
+		798A3EE7C3F7CEB0C1341465829A82ED /* Pods-JarroyoEcomerce-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JarroyoEcomerce-dummy.m"; sourceTree = "<group>"; };
 		79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7A24CB3A553EC69943015C75F9FCABA3 /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
 		7AE1F7F9A608E2B5A5233DB2A1C8E585 /* Pods-JarroyoEcomerce */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JarroyoEcomerce"; path = Pods_JarroyoEcomerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D039FFEC2BC7186733D27E813072653 /* IQInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQInvocation.swift; path = IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift; sourceTree = "<group>"; };
 		7DC3B1ACF7B0D06C3AA7C92AE5C7E502 /* SwipeCellKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeCellKit.release.xcconfig; sourceTree = "<group>"; };
 		7E0469E68D896E3E09BACC18C9AE8E76 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
+		7FB5384013BA366131E98F84E12555F5 /* Pods-JarroyoEcomerce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JarroyoEcomerce.debug.xcconfig"; sourceTree = "<group>"; };
 		83C040367B1E834C02191FDF048ACF68 /* iOSDropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iOSDropDown.swift; path = iOSDropDown/Classes/iOSDropDown.swift; sourceTree = "<group>"; };
 		840FA0B75AF62912A30DDC66B647ED98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		845D826038A4196FC6970E13C21707E9 /* Pods-JarroyoEcomerce-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JarroyoEcomerce-umbrella.h"; sourceTree = "<group>"; };
+		874AE8CABD683700F7173D199A2FDF04 /* Pods-JarroyoEcomerce-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JarroyoEcomerce-acknowledgements.plist"; sourceTree = "<group>"; };
 		89289718A235CC033297C5003421C2F7 /* iOSDropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDropDown.debug.xcconfig; sourceTree = "<group>"; };
 		8F46675C9202967C884982C75E6E9E13 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
 		97968625D38753AEFC45989571F792E3 /* SwipeCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeCollectionViewCell.swift; path = Source/SwipeCollectionViewCell.swift; sourceTree = "<group>"; };
 		9D213145AE5C77E8E4750FF02C58164B /* SwipeTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableViewCell.swift; path = Source/SwipeTableViewCell.swift; sourceTree = "<group>"; };
 		9D443E759FE97A6C0CA5A3B5E4142EBA /* SwipeCellKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwipeCellKit; path = SwipeCellKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE1E73CF8A0EF84296A8295BAC24A5D /* Pods-JarroyoEcomerceVenta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JarroyoEcomerceVenta-umbrella.h"; sourceTree = "<group>"; };
 		A1B8021A5B97B29C86CA25F69138E1FE /* IQKeyboardManager+Debug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQKeyboardManager+Debug.swift"; path = "IQKeyboardManagerSwift/IQKeyboardManager+Debug.swift"; sourceTree = "<group>"; };
 		A42DBD2F42D55606EEBA514009498B87 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		A42FEFDED87FDED6A56EF12D34B6D2DF /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
@@ -157,18 +179,24 @@
 		A5E4590635B62B257A3FE5480F721E61 /* SwipeCellKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeCellKit-umbrella.h"; sourceTree = "<group>"; };
 		A617896E45F6B37A6E142672EC8BCDCC /* SwipeAccessibilityCustomAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAccessibilityCustomAction.swift; path = Source/SwipeAccessibilityCustomAction.swift; sourceTree = "<group>"; };
 		A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A943800B2AC9126E772C9F55A8E52FFF /* Pods-JarroyoEcomerceVenta-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JarroyoEcomerceVenta-Info.plist"; sourceTree = "<group>"; };
 		AA9FECDC8B79335CC75408D9049C37D1 /* IQKeyboardManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManagerSwift-dummy.m"; sourceTree = "<group>"; };
 		ADA33562BC28CA669CD090CEF968B73E /* IQKeyboardManagerSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.debug.xcconfig; sourceTree = "<group>"; };
 		B0A1746249DB033D324A4512E71AD008 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNSArray+Sort.swift"; path = "IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"; sourceTree = "<group>"; };
 		BC7982FD48D9A8B81887A4147095C863 /* IQKeyboardManager+Toolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQKeyboardManager+Toolbar.swift"; path = "IQKeyboardManagerSwift/IQKeyboardManager+Toolbar.swift"; sourceTree = "<group>"; };
+		C70B7429A5CDB817E8657683C7E06F74 /* Pods-JarroyoEcomerce-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JarroyoEcomerce-frameworks.sh"; sourceTree = "<group>"; };
+		C905A04CF2F31FB03A1BF47D7655F908 /* Pods-JarroyoEcomerceVenta */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JarroyoEcomerceVenta"; path = Pods_JarroyoEcomerceVenta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA4699153F178AA210F56AAD06833C62 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Source/Extensions.swift; sourceTree = "<group>"; };
 		CBDED0C0500235DC454F3F1E3557C19B /* SwipeOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeOptions.swift; path = Source/SwipeOptions.swift; sourceTree = "<group>"; };
+		D0699A479843BD70F194021AC00D0C4D /* Pods-JarroyoEcomerce.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JarroyoEcomerce.modulemap"; sourceTree = "<group>"; };
+		D6D7293A5C85C6E5B47748C1416C5F57 /* Pods-JarroyoEcomerceVenta-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JarroyoEcomerceVenta-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D71FD23E0F7DC79D39C7798309286CD4 /* IQKeyboardManager+UITextFieldViewNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQKeyboardManager+UITextFieldViewNotification.swift"; path = "IQKeyboardManagerSwift/IQKeyboardManager+UITextFieldViewNotification.swift"; sourceTree = "<group>"; };
 		DB638B439EA4546D4B6362A7E5287231 /* SwipeFeedback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeFeedback.swift; path = Source/SwipeFeedback.swift; sourceTree = "<group>"; };
 		DD3B61F68444504970D6CDFD96770BE0 /* SwipeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeController.swift; path = Source/SwipeController.swift; sourceTree = "<group>"; };
 		DD8B4B3EC9B33C6441EBD3410F39BCED /* SwipeTableViewCellDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableViewCellDelegate.swift; path = Source/SwipeTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		DDA024E4F34AA9FFE083EF2DB6A2DEED /* Pods-JarroyoEcomerceVenta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JarroyoEcomerceVenta.modulemap"; sourceTree = "<group>"; };
 		E0903381C708DDFD5163120C40C70965 /* SwipeCellKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwipeCellKit.modulemap; sourceTree = "<group>"; };
-		E09AABC28E0FAC44FC8E0ED0734C7A01 /* Pods-JarroyoEcomerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JarroyoEcomerce.release.xcconfig"; sourceTree = "<group>"; };
+		E3B28A5D3B704695549FE1CC9729581C /* Pods-JarroyoEcomerceVenta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JarroyoEcomerceVenta-dummy.m"; sourceTree = "<group>"; };
 		E90A218535B6AF390A638D9A2423FE3D /* IQPreviousNextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPreviousNextView.swift; path = IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift; sourceTree = "<group>"; };
 		E9E7625EECDC049D9AED3F43D4F6185B /* IQKeyboardManager+OrientationNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQKeyboardManager+OrientationNotification.swift"; path = "IQKeyboardManagerSwift/IQKeyboardManager+OrientationNotification.swift"; sourceTree = "<group>"; };
 		EE397977519ACB1AED0D7F09DEFCD757 /* IQKeyboardManager+UIKeyboardNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQKeyboardManager+UIKeyboardNotification.swift"; path = "IQKeyboardManagerSwift/IQKeyboardManager+UIKeyboardNotification.swift"; sourceTree = "<group>"; };
@@ -176,11 +204,10 @@
 		F43B5199CC9D53B2131923AD552369DB /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUITextFieldView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
 		F854DD705B74F294FC26D07E68CBA590 /* IQKeyboardManagerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManagerSwift-Info.plist"; sourceTree = "<group>"; };
 		F99C5C1109A6327D4D7016C58A3E1216 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIViewController+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
-		F9AA87B661ABA515E57E2510D920BDE8 /* Pods-JarroyoEcomerce-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JarroyoEcomerce-acknowledgements.plist"; sourceTree = "<group>"; };
+		F9B2129DC78CDCD4BE51621BEA841EB4 /* Pods-JarroyoEcomerceVenta-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JarroyoEcomerceVenta-acknowledgements.plist"; sourceTree = "<group>"; };
 		FA4369977EC239626278B2525E1A5599 /* SwipeActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionButton.swift; path = Source/SwipeActionButton.swift; sourceTree = "<group>"; };
 		FCBD88FC21B35E73E6DBE76D8B0A6215 /* iOSDropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOSDropDown-Info.plist"; sourceTree = "<group>"; };
 		FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSDropDown; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDCBD89FF592EE5B248D74A544FFADEF /* Pods-JarroyoEcomerce-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JarroyoEcomerce-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +217,14 @@
 			files = (
 				30CC79215F75F7BD8660EAF3E20F8793 /* Foundation.framework in Frameworks */,
 				285F0E91DB7A22D06F648FF5793FB7FC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E3F5CF0286D3BDB581FC028285FF9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6539FA454F985471F37E771D760570B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +268,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		3778E02C3A67BA14E9A0A2E12C0E4211 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5AD9D0B279472D1A0C08CA8D4A910D6 /* Pods-JarroyoEcomerce */,
+				A4692511044E388FBBB5DA5DB96C9BE7 /* Pods-JarroyoEcomerceVenta */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		41D66F37FC6EF8DEEBE6554960719304 /* IQKeyboardManagerSwift */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,6 +309,18 @@
 			path = IQKeyboardManagerSwift;
 			sourceTree = "<group>";
 		};
+		4CEB8FF0B25879F07524A1FFA1242AC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown */,
+				A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift */,
+				7AE1F7F9A608E2B5A5233DB2A1C8E585 /* Pods-JarroyoEcomerce */,
+				C905A04CF2F31FB03A1BF47D7655F908 /* Pods-JarroyoEcomerceVenta */,
+				9D443E759FE97A6C0CA5A3B5E4142EBA /* SwipeCellKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		4ED4D444751F4C0809EAE37988A114C6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -295,17 +351,6 @@
 			path = "../Target Support Files/IQKeyboardManagerSwift";
 			sourceTree = "<group>";
 		};
-		88C0206FC53CD5F5FBFB906A79476094 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown */,
-				A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift */,
-				7AE1F7F9A608E2B5A5233DB2A1C8E585 /* Pods-JarroyoEcomerce */,
-				9D443E759FE97A6C0CA5A3B5E4142EBA /* SwipeCellKit */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		9872D3F853982007E1C58F65CD10D684 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -319,6 +364,23 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/iOSDropDown";
+			sourceTree = "<group>";
+		};
+		A4692511044E388FBBB5DA5DB96C9BE7 /* Pods-JarroyoEcomerceVenta */ = {
+			isa = PBXGroup;
+			children = (
+				DDA024E4F34AA9FFE083EF2DB6A2DEED /* Pods-JarroyoEcomerceVenta.modulemap */,
+				D6D7293A5C85C6E5B47748C1416C5F57 /* Pods-JarroyoEcomerceVenta-acknowledgements.markdown */,
+				F9B2129DC78CDCD4BE51621BEA841EB4 /* Pods-JarroyoEcomerceVenta-acknowledgements.plist */,
+				E3B28A5D3B704695549FE1CC9729581C /* Pods-JarroyoEcomerceVenta-dummy.m */,
+				6DD256678F069BADFEA06359D6E753D0 /* Pods-JarroyoEcomerceVenta-frameworks.sh */,
+				A943800B2AC9126E772C9F55A8E52FFF /* Pods-JarroyoEcomerceVenta-Info.plist */,
+				9DE1E73CF8A0EF84296A8295BAC24A5D /* Pods-JarroyoEcomerceVenta-umbrella.h */,
+				54D33402EEB94BCB233582E48FB289DA /* Pods-JarroyoEcomerceVenta.debug.xcconfig */,
+				4FFC4D24A2CA695892DA4C616E56F8B6 /* Pods-JarroyoEcomerceVenta.release.xcconfig */,
+			);
+			name = "Pods-JarroyoEcomerceVenta";
+			path = "Target Support Files/Pods-JarroyoEcomerceVenta";
 			sourceTree = "<group>";
 		};
 		A77151386819168796E13111A877CC60 /* SwipeCellKit */ = {
@@ -352,23 +414,6 @@
 			path = SwipeCellKit;
 			sourceTree = "<group>";
 		};
-		B589F33EB2CCDD1D14E1059058DEA514 /* Pods-JarroyoEcomerce */ = {
-			isa = PBXGroup;
-			children = (
-				2EF335C7475CBBFC3DE3CC37A59AAC46 /* Pods-JarroyoEcomerce.modulemap */,
-				10953E5C7478154045AC89ED4A4A42E5 /* Pods-JarroyoEcomerce-acknowledgements.markdown */,
-				F9AA87B661ABA515E57E2510D920BDE8 /* Pods-JarroyoEcomerce-acknowledgements.plist */,
-				FDCBD89FF592EE5B248D74A544FFADEF /* Pods-JarroyoEcomerce-dummy.m */,
-				43F30646CB4D060801E2296D01A4B032 /* Pods-JarroyoEcomerce-frameworks.sh */,
-				11D99276931C2CCE6048D438BAB8B8E1 /* Pods-JarroyoEcomerce-Info.plist */,
-				845D826038A4196FC6970E13C21707E9 /* Pods-JarroyoEcomerce-umbrella.h */,
-				00D7EBED0B2BB54CE584DF4D01D10C0C /* Pods-JarroyoEcomerce.debug.xcconfig */,
-				E09AABC28E0FAC44FC8E0ED0734C7A01 /* Pods-JarroyoEcomerce.release.xcconfig */,
-			);
-			name = "Pods-JarroyoEcomerce";
-			path = "Target Support Files/Pods-JarroyoEcomerce";
-			sourceTree = "<group>";
-		};
 		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -383,8 +428,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				2BD5F370447E456E064280CD558696E0 /* Pods */,
-				88C0206FC53CD5F5FBFB906A79476094 /* Products */,
-				E3FF0797D2AE131C9CC6928A7D7A2410 /* Targets Support Files */,
+				4CEB8FF0B25879F07524A1FFA1242AC6 /* Products */,
+				3778E02C3A67BA14E9A0A2E12C0E4211 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -398,12 +443,21 @@
 			path = iOSDropDown;
 			sourceTree = "<group>";
 		};
-		E3FF0797D2AE131C9CC6928A7D7A2410 /* Targets Support Files */ = {
+		E5AD9D0B279472D1A0C08CA8D4A910D6 /* Pods-JarroyoEcomerce */ = {
 			isa = PBXGroup;
 			children = (
-				B589F33EB2CCDD1D14E1059058DEA514 /* Pods-JarroyoEcomerce */,
+				D0699A479843BD70F194021AC00D0C4D /* Pods-JarroyoEcomerce.modulemap */,
+				366C685B5E6B27ED3B945DAD35A04507 /* Pods-JarroyoEcomerce-acknowledgements.markdown */,
+				874AE8CABD683700F7173D199A2FDF04 /* Pods-JarroyoEcomerce-acknowledgements.plist */,
+				798A3EE7C3F7CEB0C1341465829A82ED /* Pods-JarroyoEcomerce-dummy.m */,
+				C70B7429A5CDB817E8657683C7E06F74 /* Pods-JarroyoEcomerce-frameworks.sh */,
+				12192068B7E548759DFCEF3A401BBF10 /* Pods-JarroyoEcomerce-Info.plist */,
+				6A1435BCE85ADD147CF61730987C6910 /* Pods-JarroyoEcomerce-umbrella.h */,
+				7FB5384013BA366131E98F84E12555F5 /* Pods-JarroyoEcomerce.debug.xcconfig */,
+				263923427AB9CC11FA184AA17653C65E /* Pods-JarroyoEcomerce.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-JarroyoEcomerce";
+			path = "Target Support Files/Pods-JarroyoEcomerce";
 			sourceTree = "<group>";
 		};
 		F9D206BABE81E6BF0B9B23880B238CC7 /* iOS */ = {
@@ -449,6 +503,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6B43B1B78EC0E52CC08F82841A22A31 /* IQKeyboardManagerSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE016070012C91860033D336E6BD04A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8879595E9EAA55C160884BE65D1134 /* Pods-JarroyoEcomerceVenta-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +592,26 @@
 			productReference = A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift */;
 			productType = "com.apple.product-type.framework";
 		};
+		EA3082D29CB097CDCF39D257C0C97C29 /* Pods-JarroyoEcomerceVenta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4796909A16947C588EEF350BDCB6463E /* Build configuration list for PBXNativeTarget "Pods-JarroyoEcomerceVenta" */;
+			buildPhases = (
+				EE016070012C91860033D336E6BD04A7 /* Headers */,
+				BDB477AA163D11C3397BB72D0D6F9685 /* Sources */,
+				93E3F5CF0286D3BDB581FC028285FF9B /* Frameworks */,
+				E3F80F956CB5348AAF168F9D9751DE4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43A948BED3BE00BA45ED6A60D9B07A0C /* PBXTargetDependency */,
+				96C894186EC0539F657A4293CD9EE735 /* PBXTargetDependency */,
+			);
+			name = "Pods-JarroyoEcomerceVenta";
+			productName = Pods_JarroyoEcomerceVenta;
+			productReference = C905A04CF2F31FB03A1BF47D7655F908 /* Pods-JarroyoEcomerceVenta */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -548,13 +630,14 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 88C0206FC53CD5F5FBFB906A79476094 /* Products */;
+			productRefGroup = 4CEB8FF0B25879F07524A1FFA1242AC6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */,
 				B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */,
 				75287922C3AEA4A229758D1AF2BFB449 /* Pods-JarroyoEcomerce */,
+				EA3082D29CB097CDCF39D257C0C97C29 /* Pods-JarroyoEcomerceVenta */,
 				1DE44C23B82E6671E9E1541D06DE0E87 /* SwipeCellKit */,
 			);
 		};
@@ -583,6 +666,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DAEA1F953296419744C852BAA2739BA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F80F956CB5348AAF168F9D9751DE4A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -653,6 +743,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BDB477AA163D11C3397BB72D0D6F9685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA05D85F64196EF580B8799684B729B9 /* Pods-JarroyoEcomerceVenta-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C007FF516C6F3115BB3A2EF5261492C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -673,6 +771,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		43A948BED3BE00BA45ED6A60D9B07A0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManagerSwift;
+			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
+			targetProxy = 2FBC695F527C3E0C1B3F3D3E0392A93F /* PBXContainerItemProxy */;
+		};
 		52E301EF7A654B4DCAE45A5CC4D2B79B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwipeCellKit;
@@ -685,6 +789,12 @@
 			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
 			targetProxy = 6977F93388C36AF0A4012B11AE67FEED /* PBXContainerItemProxy */;
 		};
+		96C894186EC0539F657A4293CD9EE735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwipeCellKit;
+			target = 1DE44C23B82E6671E9E1541D06DE0E87 /* SwipeCellKit */;
+			targetProxy = B44ECB58C7BBFE5F7B36F16E19171F9B /* PBXContainerItemProxy */;
+		};
 		D917E21385583C42F05B51C011AFF000 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = iOSDropDown;
@@ -696,7 +806,7 @@
 /* Begin XCBuildConfiguration section */
 		13744C70DCC9022C0A0DDC21D9F3DAA2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E09AABC28E0FAC44FC8E0ED0734C7A01 /* Pods-JarroyoEcomerce.release.xcconfig */;
+			baseConfigurationReference = 263923427AB9CC11FA184AA17653C65E /* Pods-JarroyoEcomerce.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -964,6 +1074,43 @@
 			};
 			name = Release;
 		};
+		AAF196C67D306E4B2812725C50271985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54D33402EEB94BCB233582E48FB289DA /* Pods-JarroyoEcomerceVenta.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JarroyoEcomerceVenta/Pods-JarroyoEcomerceVenta-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JarroyoEcomerceVenta/Pods-JarroyoEcomerceVenta.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B365E1CAEEB3DAE92CD63CCAF561CBEF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 05E8C1DF890FDD1647506289D4653E53 /* SwipeCellKit.debug.xcconfig */;
@@ -1035,7 +1182,7 @@
 		};
 		CA4F300320BBC60E6D36287CF10A32B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00D7EBED0B2BB54CE584DF4D01D10C0C /* Pods-JarroyoEcomerce.debug.xcconfig */;
+			baseConfigurationReference = 7FB5384013BA366131E98F84E12555F5 /* Pods-JarroyoEcomerce.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1069,6 +1216,44 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		D8B18F8A170018A8BECEE97B91A11223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FFC4D24A2CA695892DA4C616E56F8B6 /* Pods-JarroyoEcomerceVenta.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JarroyoEcomerceVenta/Pods-JarroyoEcomerceVenta-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JarroyoEcomerceVenta/Pods-JarroyoEcomerceVenta.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		F0377F003E77F0F91AC8FEE0F297E927 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1112,6 +1297,15 @@
 			buildConfigurations = (
 				F0377F003E77F0F91AC8FEE0F297E927 /* Debug */,
 				9D8C08F259B4E57381CFE8BC28467628 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4796909A16947C588EEF350BDCB6463E /* Build configuration list for PBXNativeTarget "Pods-JarroyoEcomerceVenta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAF196C67D306E4B2812725C50271985 /* Debug */,
+				D8B18F8A170018A8BECEE97B91A11223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

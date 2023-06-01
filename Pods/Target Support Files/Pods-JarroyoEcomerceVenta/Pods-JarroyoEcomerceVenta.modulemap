@@ -1,0 +1,6 @@
+framework module Pods_JarroyoEcomerceVenta {
+  umbrella header "Pods-JarroyoEcomerceVenta-umbrella.h"
+
+  export *
+  module * { export * }
+}

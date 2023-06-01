@@ -6,28 +6,30 @@
 //
 
 import UIKit
+import SwipeCellKit
 
 private let reuseIdentifier = "ProductoCollectionCell"
 
 class ProductoController: UICollectionViewController {
 
     var producto : [Producto] = []
+    var produ : [VentaProductos] = []
     var IdDepartamento = 0
     var carritoViewModel = CarritoViewModel()
     var nombreProducto = ""
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Register cell classes
-        collectionView.register(UINib(nibName: "ProductoCollectionCell", bundle: .main), forCellWithReuseIdentifier: "ProductoCollectionCell")
-        collectionView.delegate = self
-        collectionView.dataSource = self
-        //updateUI()
         
+//    override func viewWillAppear(_ animated: Bool) {
+//        updateUI()
+//        collectionView.reloadData()
+//    }
+    
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            collectionView.register(UINib(nibName: "ProductoCollectionCell", bundle: .main), forCellWithReuseIdentifier: "ProductoCollectionCell")
+            collectionView.delegate = self
+            collectionView.dataSource = self
+            //updateUI()
+            
         if IdDepartamento == 0 {
             var result = ProductoViewModel.GetByNombre(Nombre: nombreProducto)
             producto.removeAll()
@@ -93,26 +95,26 @@ class ProductoController: UICollectionViewController {
                let alert = UIAlertController(title: "Mensaje", message: "Producto agregado al carrito correctamente", preferredStyle: .alert)
                let action = UIAlertAction(title: "Aceptar", style: .default)
                alert.addAction(action)
+               present(alert, animated: true)
            }else{
                let alert = UIAlertController(title: "Mensaje", message: "Ocurrio un error al intentar agregar al carrito", preferredStyle: .alert)
                let action = UIAlertAction(title: "Aceptar", style: .default)
                alert.addAction(action)
+               present(alert, animated: true)
            }
-           carritoViewModel.GetAll()
+        carritoViewModel.GetAll()
        }
     
-//    func updateUI(){
-//
-//        var result = ProductoViewModel.GetByIdDep(IdDepartamento: IdDepartamento)
-//
-//        producto.removeAll()
-//        if result.Correct!{
-//            for objR in result.Objects!{
-//            let objrol = objR as! Producto //Unboxing
-//            producto.append(objrol)
-//           }
-//       collectionView.reloadData()
-//     }
-//    }
+    func updateUI(){
+//        var result = carritoViewModel.GetAll()
+//        produ.removeAll()
+//        if result.Correct! {
+//            for objUsuario in result.Objects!{
+//                let prod = objUsuario as! VentaProductos //Unboxing
+//                produ.append(prod)
+//            }
+//            collectionView.reloadData()
+//        }
+    }
 }
 

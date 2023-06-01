@@ -97,16 +97,17 @@
                     </tabBar>
                     <connections>
                         <segue destination="lto-1X-h4h" kind="relationship" relationship="viewControllers" id="0sx-TH-O35"/>
+                        <segue destination="Z7o-Gq-F8x" kind="relationship" relationship="viewControllers" id="kDr-rV-L5p"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="efS-ln-VCG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1555" y="142"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Carrito-->
         <scene sceneID="yB8-4u-fE6">
             <objects>
-                <tableViewController id="Z7o-Gq-F8x" sceneMemberID="viewController">
+                <tableViewController id="Z7o-Gq-F8x" customClass="CarritoController" customModule="JarroyoEcomerceVenta" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="lW9-dl-sr2">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -126,10 +127,11 @@
                             <outlet property="delegate" destination="Z7o-Gq-F8x" id="hp4-rR-hSg"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Carrito" image="cart.circle" catalog="system" id="YM0-we-1b2"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q2A-2S-j4I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-711" y="577"/>
+            <point key="canvasLocation" x="-100" y="513"/>
         </scene>
         <!--Item-->
         <scene sceneID="gac-n4-sAO">
@@ -302,7 +304,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="xWs-iY-lgC"/>
                     <connections>
-                        <outlet property="btnIng" destination="6cB-Yy-b9h" id="Xh9-JO-Vba"/>
                         <outlet property="txtCorreo" destination="Czs-gw-1C8" id="kkB-E6-K28"/>
                         <outlet property="txtPassword" destination="r9E-GG-Bvl" id="8Ai-2I-svW"/>
                         <segue destination="3df-ux-IHd" kind="show" id="FA3-hH-6Zy"/>

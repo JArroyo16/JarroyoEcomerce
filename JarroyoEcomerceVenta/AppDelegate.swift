@@ -11,12 +11,14 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     lazy var persistentContainer: NSPersistentContainer = {
-           let container = NSPersistentContainer(name: "DataModel")
+           let container = NSPersistentContainer(name: "JarroyoEcomerce")
            container.loadPersistentStores { description, error in
                if let error = error {
                    fatalError("Unable to load persistent stores: \(error)")
                }
+               print("Conexion exitosa core data")
            }
+        print(container.persistentStoreDescriptions.first?.url)
            return container
        }()
 

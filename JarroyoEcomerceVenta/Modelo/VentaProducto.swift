@@ -7,7 +7,7 @@
 
 import Foundation
 
-class VentaProducto{
+class VentaProductos{
     var producto : Producto? = nil
     var cantidad : Int? = nil
 }
